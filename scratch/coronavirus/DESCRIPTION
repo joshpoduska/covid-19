@@ -1,0 +1,59 @@
+Package: coronavirus
+Title: Tracking the Coronavirus
+Version: 0.1.2
+Authors@R: 
+  c(
+    person('John', 'Coene', email = 'jcoenep@gmail.com', role = c('cre', 'aut')),
+    person(family = 'John Hopkins', role = 'ctb')
+  )
+Description: Tracking the Coronavirus.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 2.10)
+Imports:
+    DBI,
+    cli,
+    yaml,
+    pool,
+    httr,
+    xml2,
+    sever,
+    shiny (>= 1.4.0),
+    golem,
+    dplyr,
+    tidyr,
+    purrr,
+    rvest,
+    readr,
+    waiter,
+    tibble,
+    newsapi,
+    plumber,
+    countup,
+    nCov2019 (>= 0.0.9),
+    magrittr,
+    jsonlite,
+    RPostgres,
+    tidyselect,
+    shinyscroll (>= 0.0.2),
+    htmlwidgets,
+    shinyMobile (>= 0.5.0),
+    countrycode
+Suggests:
+    echarts4r (>= 0.3.0),
+    echarts4r.maps,
+    testthat (>= 2.1.0),
+    covr
+RoxygenNote: 7.0.2
+URL: https://github/JohnCoene/coronavirus
+BugReports: https://github/JohnCoene/coronavirus/issues
+Remotes:
+  news-r/newsapi,
+  JohnCoene/sever,
+  JohnCoene/countup,
+  JohnCoene/echarts4r,
+  JohnCoene/echarts4r.maps,
+  GuangchuangYu/nCov2019,
+  JohnCoene/shinyscroll,
+  RinteRface/shinyMobile

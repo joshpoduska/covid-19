@@ -1,0 +1,7 @@
+database:
+  name: name
+  host: localhost
+  user: me
+  password: password
+newsapi:
+  key: https://newsapi.org/

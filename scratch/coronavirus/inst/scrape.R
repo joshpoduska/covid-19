@@ -1,0 +1,1 @@
+coronavirus::crawl_coronavirus()
